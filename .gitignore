@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+
+# Generated files
+output/*.md
+
+# Keep message directory structure but ignore content
+messages/*
+!messages/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating System
+.DS_Store
+Thumbs.db
